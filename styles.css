@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+    .jumbotron img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    button.btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('assets/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+#cursos .card {
+    margin-bottom: 20px;
+}
+
+
+
